@@ -1,0 +1,45 @@
+.formbox {
+  padding: 2rem;
+  padding-top: .5rem;
+  
+}
+.suggestions {
+  background-color: blueviolet;
+  padding: 2rem;
+ 
+}
+.content {
+    /* padding-top: 10rem; */
+    
+}
+li {
+    padding: 0rem;
+    margin: 0rem;
+}
+.bubble
+{
+   position: relative;
+   min-width: 250px;
+   min-height: 120px;
+   padding: 1rem;
+   background: #CF5858;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: white;
+}
+
+.bubble:after
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 30px 5px 0;
+    border-color: transparent #CF5858;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -30px;
+    top: 16px;
+}
+
